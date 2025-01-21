@@ -1,0 +1,5 @@
+--cpu Cortex-M3 -g --apcs=interwork 
+-I D:\new_app\ARM\RV31\INC 
+-I D:\new_app\ARM\CMSIS\Include 
+-I D:\new_app\ARM\Inc\ST\STM32F10x 
+--list ".\Template.uvguix.lst" --xref -o "Template.uvguix.o" --depend "Template.uvguix.d" "USER\Template.uvguix.Administrator"

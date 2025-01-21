@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\USER -I.\SYSTEM\sys -I.\CORE -I.\STM32F10x_FWLib\inc -I.\STM32F10x_FWLib\src -I.\HARDWARE\digitaltube -I.\HARDWARE\KEY -I.\HARDWARE\lcd1602 -I.\HARDWARE\LED -I.\HARDWARE\speed -I.\HARDWARE\RCC -I.\HARDWARE\Timer -I.\SYSTEM\delay -I.\SYSTEM\usart -I.\USER\DebugConfig 
+-I D:\new_app\ARM\RV31\INC 
+-I D:\new_app\ARM\CMSIS\Include 
+-I D:\new_app\ARM\Inc\ST\STM32F10x 
+-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "speed.o" --omf_browse "speed.crf" --depend "speed.d" "HARDWARE\speed\speed.c"

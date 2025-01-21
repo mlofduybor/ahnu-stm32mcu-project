@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\USER -I.\SYSTEM\sys -I.\CORE -I.\STM32F10x_FWLib\inc -I.\STM32F10x_FWLib\src -I.\HARDWARE\KEY -I.\SYSTEM\delay -I.\SYSTEM\usart -I.\USER\DebugConfig -I.\HARDWARE\LCD\LCD 
+-I D:\new_app\ARM\RV31\INC 
+-I D:\new_app\ARM\CMSIS\Include 
+-I D:\new_app\ARM\Inc\ST\STM32F10x 
+-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "key.o" --omf_browse "key.crf" --depend "key.d" "HARDWARE\KEY\KEY.c"

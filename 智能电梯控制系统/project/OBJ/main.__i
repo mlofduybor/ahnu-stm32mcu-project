@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\STM32F10x_FWLib\src -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM -I ..\HARDWARE\RCC -I ..\HARDWARE\Timer -I ..\HARDWARE\KEY -I ..\HARDWARE\digitaltube
+-I.\RTE\_Template
+-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+-IC:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="525" -DSTM32F10X_LD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_LD
+-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d "main.c"
